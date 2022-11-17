@@ -49,8 +49,8 @@ now_date = datetime.date.today()
 
 def get_token():
     data_for_log = {
-        'Login': '89166919800',
-        'Password': 'Ghjcnjgfhjkm890!@#'
+        'Login': '****',
+        'Password': '****'
     }
 
     req = requests.post(SERVER, json=data_for_log)
